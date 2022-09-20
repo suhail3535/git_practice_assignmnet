@@ -1,8 +1,10 @@
-// Check if a number is a prime or not !
 
-let num = 17, factor = 0;
-for (let i = 1; i <= num; i++) {
-    if (num % i == 0) {
+
+let factor=0;
+let number=17;
+for(let i=1;i<=number;i++){
+    if(number%i==0){
+
         factor++;
     }
 }
